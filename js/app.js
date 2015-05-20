@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('.ryu').mouseenter(function(){
+		$('.ryu_still').hide();
+		$('.ryu_ready').show();
+	});
+	$('.ryu').mouseleave(function(){
+		$('.ryu-ready').hide();
+		$('.ryu-still').show();
+	});
+});
